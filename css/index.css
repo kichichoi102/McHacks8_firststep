@@ -1,0 +1,40 @@
+h1 {
+  font-size: 50px;
+  margin: 0;
+  /* margin-bottom: 20px; */
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0;
+  opacity: 60%;
+  font-weight: bold;
+}
+
+.scrapbook {
+  opacity: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -256px;
+  margin-bottom: -256px;
+}
+
+.modules {
+  position: fixed;
+  top: 30%;
+}
+
+.choose-module {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.footprints {
+  transform: rotate(30deg);
+}
+
+ul {
+  line-height: 50px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161772054-3"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-161772054-3');
+        </script>
+
+        <!-- Primary Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow" />
+
+        <title>Gratefulness Journal</title>
+        <meta name="title" content="Gratefulness Journal">
+        <meta name="description" content="Uses browser storage to store your content locally.">
+
+            <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet"/>
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/aspiration.css" />
+        <!-- Wired Elements -->
+        <script async src="https://unpkg.com/wired-elements/lib/wired-elements-iife.js"></script>
+
+    </head>
+    <body>
+        <header></header>
+
+        <main class="main-container">
+            <div>
+            <h1 class="title">Gratefulness</h1>
+            <p>It is important to remember the little things that make you feel grateful for.</p>
+
+            <section class="input-section">
+                <form id="entry-form">
+                    <wired-textarea class="entry-title" placeholder="Give your journal a meaningful title!"></wired-textarea>
+                    <wired-textarea class="entry-textbox" placeholder="Think of something that youfeel grateful for. Describe it in a few words" rows="6"></wired-textarea>
+                    <br>
+                    <wired-button type="submit" elevation="2">Submit</wired-button>
+                </form>
+            </section>
+            </div>
+            <div>
+            <section id="entries-section">
+                <h2 class="entries-title">Entries <span class="date-updated">Last updated: </span></h1>
+                <div class="entries-list"></div>
+            </section>
+            </div>
+        </main>
+
+        <footer></footer>
+
+        <script src="js/gratefulness.js"></script>
+    </body>
+</html>

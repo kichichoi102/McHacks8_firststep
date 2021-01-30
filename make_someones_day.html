@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-161772054-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-161772054-3");
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <title>Make Someone's Day!</title>
+    <meta name="title" content="Make Someone's Day" />
+    <meta name="description" content="Randomly returns a quote" />
+
+    <!-- Search Engine-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://unpkg.com/wired-elements/lib/wired-elements-iife.js"
+    ></script>
+  </head>
+  <body>
+    <header></header>
+
+    <main class="main-container">
+      <h1 class="title SmallMoments">Make Someone's Day!</h1>
+      <p>
+        Life is always better if you share it with someone. Let's do something
+        nice for someone!
+      </p>
+
+      <wired-button onclick="newQuote()" type="submit">
+        New Quote
+      </wired-button>
+      <div id="quoteDisplay">
+        <!-- <quote> -->
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/MakeSomeonesDay.js"></script>
+  </body>
+</html>

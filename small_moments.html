@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-161772054-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-161772054-3");
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <title>Small Moments</title>
+    <meta name="title" content="Small Moments" />
+    <meta name="description" content="Randomly returns a quote" />
+
+    <!-- Search Engine-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://unpkg.com/wired-elements/lib/wired-elements-iife.js"
+    ></script>
+  </head>
+  <body>
+    <header></header>
+
+    <main class="main-container">
+      <h1 class="title SmallMoments">Small Moments</h1>
+      <p>It is important to cherish the small moments that we face in life.</p>
+
+      <div class="generateQuote">
+        <wired-button elevation="2" onclick="newQuote()" type="submit">
+          New Quote
+        </wired-button>
+        <p id="quoteDisplay">
+          <!-- <quote> -->
+        </p>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/SmallMoments.js"></script>
+    <script>
+      fitty("#quoteDisplay");
+    </script>
+  </body>
+</html>

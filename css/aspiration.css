@@ -1,0 +1,32 @@
+#entry-form {
+  display: flex;
+  flex-direction: column;
+}
+
+wired-textarea {
+  width: 500px;
+}
+
+wired-input {
+  width: 500px;
+  background-color: transparent;
+}
+
+.entry-textbox {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.entry-title {
+  font-family: "Gloria Hallelujah", cursive;
+  height: 50px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.entries-list {
+  display: flex;
+  flex-direction: column;
+}
